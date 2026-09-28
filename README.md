@@ -1,72 +1,64 @@
-# 🦅 produtivOS
+# produtivOS
 
-> **Seu computador. Seu chefe. Seu inferno produtivo.**
+> Seu computador. Seu chefe. Seu inferno produtivo.
 
-O **produtivOS** é um sistema operacional gamificado criado para combater a procrastinação universitária.
+O **produtivOS** é um sistema de produtividade gamificado criado para combater a procrastinação universitária.
 
-Em vez de simplesmente bloquear aplicativos, o produtivOS transforma produtividade em um jogo: você recebe créditos por cumprir tarefas e manter o foco, enquanto o nosso mascote, um urubu que definitivamente leva seu trabalho a sério demais, acompanha suas atividades e interfere quando você tenta procrastinar.
+Em vez de apenas bloquear aplicativos ou limitar o acesso a distrações, o sistema transforma produtividade em uma mecânica de jogo. O usuário recebe créditos ao concluir tarefas e manter o foco, enquanto um mascote acompanha suas atividades e reage quando identifica comportamentos associados à procrastinação.
 
-🎓 Desenvolvido durante o **Hackfools** em apenas **10 horas**.
+O projeto foi desenvolvido em aproximadamente **10 horas durante o Hackfools 2026** e recebeu o prêmio de **Melhor Projeto** da competição.
 
-🏆 **Vencedor do Hackfools 2026**
+## Sobre o projeto
 
----
-
-# 🛠️ Tecnologias
-
-O protótipo foi desenvolvido utilizando tecnologias web e ferramentas de visão computacional.
-
-As principais tecnologias utilizadas incluem:
-
-* HTML
-* CSS
-* JavaScript
-* Reconhecimento facial / visão computacional
-* APIs e ferramentas web
-* Git & GitHub
-
-> *A implementação pode evoluir conforme o projeto for desenvolvido além do hackathon.*
-
----
-
-# 🏆 Hackfools 2026
-
-O Hackfools é uma competição de inovação e programação organizada pelo grupo extracurricular Codelab em que equipes desenvolvem soluções criativas para desafios reais em um tempo limitado.
-Durante o evento, os participantes precisam criar, desenvolver e apresentar um protótipo funcional para uma banca de jurados.
-
-### 👥 Equipe
-
-Projeto desenvolvido por uma equipe de **3 integrantes:**
-
-* Petrus de Oliveira Pinheiro
-* Thales Amaral Gontijo
-* Murilo Yuki Kasama Nakata
-
-### 🎯 Desafio
+O desafio proposto pelo Hackfools foi:
 
 > **Como evitar a procrastinação universitária?**
 
-### 💡 Nossa abordagem
+Nossa abordagem partiu da ideia de transformar o próprio computador em um ambiente que interage ativamente com o usuário.
 
-Em vez de criar apenas mais uma ferramenta de produtividade, decidimos transformar o próprio computador em um ambiente que **pressiona, recompensa e interage com o usuário**.
+Em vez de criar apenas mais uma lista de tarefas ou um bloqueador de sites, desenvolvemos um sistema que combina três elementos:
 
-O resultado foi o produtivOS.
+1. **Gamificação**, por meio de créditos e recompensas associados à produtividade.
+2. **Monitoramento de foco**, utilizando recursos de visão computacional.
+3. **Interação com o usuário**, representada pelo mascote do sistema, um urubu que reage às ações realizadas durante o uso do computador.
 
-### 🏆 Resultado
+O objetivo do protótipo é tornar o ato de procrastinar perceptível e criar incentivos imediatos para que o usuário retorne às suas tarefas.
 
-🥇 Vencedor do Hackfools na categoria Melhor Projeto
+## Tecnologias
 
----
+O protótipo utiliza principalmente tecnologias web e ferramentas de visão computacional.
 
-# 🎥 Demonstração
+Entre as tecnologias utilizadas estão:
 
-> Você pode explorar o sistema diretamente pelo link abaixo.
+- HTML
+- CSS
+- JavaScript
+- Visão computacional e reconhecimento facial
+- APIs e ferramentas web
+- Git
+- GitHub
 
-```text
-https://oppetrus.github.io/ProdutivOS/
-```
+Como o projeto foi desenvolvido durante um hackathon, sua arquitetura e suas tecnologias podem mudar conforme novas funcionalidades forem implementadas.
 
-# 🚀 Executando o projeto
+## Hackfools 2026
+
+O **Hackfools** é uma competição de inovação e programação organizada pelo grupo extracurricular **CodeLab**.
+
+Durante o evento, equipes recebem um desafio e têm um período limitado para idealizar, desenvolver e apresentar um protótipo funcional para uma banca de jurados.
+
+### Equipe
+
+O produtivOS foi desenvolvido por:
+
+- Petrus de Oliveira Pinheiro
+- Thales Amaral Gontijo
+- Murilo Yuki Kasama Nakata
+
+### Resultado
+
+O projeto recebeu o prêmio de **Melhor Projeto do Hackfools 2026**.
+
+## Executando localmente
 
 Clone o repositório:
 
@@ -74,34 +66,28 @@ Clone o repositório:
 git clone https://github.com/opPetrus/produtivOS.git
 ```
 
-Entre na pasta:
+Acesse o diretório do projeto:
 
 ```bash
 cd produtivOS
 ```
 
-Instale as dependências, caso necessário:
+Instale as dependências, caso o projeto possua dependências locais:
 
 ```bash
 npm install
 ```
 
-Execute o projeto:
+Execute o ambiente de desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-> Os comandos acima podem variar conforme a estrutura final do projeto.
+Os comandos de instalação e execução podem variar conforme a estrutura atual do projeto.
 
----
+## Contexto
 
-<div align="center">
+O produtivOS nasceu como um protótipo de hackathon e foi desenvolvido com foco em validar rapidamente uma proposta: usar gamificação, interação e visão computacional para tornar a procrastinação mais difícil de ignorar.
 
-## 🦅 produtivOS
-
-### **Comece agora. O Urubu está olhando.**
-
-🏆 **Hackfools — 1º lugar**
-
-</div>
+O projeto pode continuar evoluindo com novas mecânicas de produtividade, formas de monitoramento e integrações com o ambiente do usuário.
